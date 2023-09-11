@@ -1,0 +1,131 @@
+.body{
+  font-family: 'Zilla Slab', serif;
+  margin: 0;
+  padding: 0;
+}
+
+.bgColor{
+  background-color: cadetblue;
+}
+
+.container{
+
+  width: 85vmin;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  overflow: hidden;
+  border: 2px solid #ffffff;
+  box-shadow: 10px 25px  30px rgba(30, 30, 300, 0.3);
+
+}
+
+main{
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 100%;
+}
+
+.bgImage{
+
+  height: 100vh;
+  width: 100vw;
+  object-fit: none;
+  filter: brightness(0.8);
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: -1;
+
+}
+
+.profileImageResizer{
+  height: 90vh;
+  width: 100vw;
+  border-radius: 3%;
+  border: 2px solid black;
+
+}
+
+.foodInfoContainer{
+
+  padding-top: 20px;
+  padding-left: 10px;
+  height: 30vh;
+  width: 90vw;
+  border: 2px solid black;
+  border-radius: 2%;
+  box-shadow: 5px 5px #383838;
+
+}
+
+
+.inner {
+  display: inline-block;
+  padding-top: 10px;
+  /* padding-right: 10px; */
+  height:170px;
+  margin:10px;
+  width: 1330px;
+  /* padding-left: 10px; */
+
+  border: 2px solid black;
+  border-radius: 2%;
+  box-shadow: 5px 5px #383838;
+
+}
+
+ul li{
+    list-style-type: none;
+}
+
+
+.foodImageResizer{
+  height: 125px;
+  width: 130px;
+  border-radius: 10%;
+
+}
+
+.floatLeft{
+    float: left;
+}
+.floatRight{
+    float: right;
+}
+
+.whiteTextColor{
+  color: white;
+}
+
+.quantityButtonResizer{
+  border-radius: 10%;
+}
+
+.text{
+  font-size: 4 em;
+  letter-spacing: 1px;
+  font-family: 'Zilla Slab';
+  /* border-right: 3px solid; */
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation:
+       typing 2s steps(30),
+       cursor .4s step-end infinite alternate;
+}
+
+
+@keyframes cursor {
+  50%{
+    border-color: transparent;
+  }
+}
+@keyframes typing {
+
+  from{
+    width: 0;
+  }
+
+}

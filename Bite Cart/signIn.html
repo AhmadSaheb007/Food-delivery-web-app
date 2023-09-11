@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+
+<head>
+
+  <title>Sign In</title>
+  <link rel="icon" type="image/x-icon" href="D:\Downloads\Favicon.png">
+
+  <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="signInStyle.css">
+  <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+  <!-- Setting background image -->
+  <img class = "bgImage" src="https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=100" alt="Bk">
+
+  <div>
+
+    <div>
+
+      <a href="index.php">
+        <img class="logo" src="https://github.com/3Mahin/BiteCart/blob/main/Logo/Bite%20Cart%20Logo.png?raw=true" alt="Bite Cart">
+      </a>
+
+      <h1 class="TitleTextPadding whiteTextColor floatRight">
+        Sign In
+      </h1>
+
+    </div>
+
+    <div class="mainBlock text-center m-auto">
+      <br>
+
+      <div class="registrationBlock whiteTextColor text-center m-auto">
+        <form class="register" action="signup.php" method="post">
+          <label>First Name: </label>
+          <br>
+          <input type="text" name="fname"
+                 placeholder ="Enter your first name" id="">
+
+          <br>
+
+          <label>Last Name: </label>
+          <br>
+          <input type="text" name="lname"
+                  placeholder ="Enter your last name" id="">
+
+          <br>
+          <label>NID Number: </label>
+          <br>
+          <input type="text" name="nidNumber"
+                  placeholder ="Enter your NID" id="">
+
+          <br>
+          <label>Email: </label>
+          <br>
+          <input type="text" name="email"
+                  placeholder ="Enter your valid mail" id="">
+
+
+          <br>
+          <label>Password: </label>
+          <br>
+          <input type="password" name="password"
+                  placeholder ="Enter a Strong password" id="">
+
+          <br>
+          <label>Phone Number: </label>
+          <br>
+          <input type="text" name="phone"
+                      placeholder ="Enter Phone Number" id="">
+
+          <br>
+          <label>Address: </label>
+          <br>
+          <input type="text" name="address"
+                  placeholder ="Enter Address" id="">
+
+           <p><br>
+               Already have an account? 
+              <a href="login.php">Login</a>
+           </p>
+
+          <!-- <label>Confirm Password: </label>
+          <br>
+          <input type="password" name="ConfirmPassword"
+                  placeholder ="Retype same password" id="CP"> -->
+
+          <!-- <br>
+
+          <label>Gendar</label>
+          &nbsp;&nbsp;&nbsp;
+          <input type="radio" name="gender" id="male">
+          <span id = "male">Male</span>
+
+          &nbsp;&nbsp;
+          <input type="radio" name="gender" id="female">
+          <span id = "female">Female</span> -->
+
+          <input class="btn btn-outline-success" type="submit" name="submit" value="Submit" id="submit">
+          <br>
+          <br>
+
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

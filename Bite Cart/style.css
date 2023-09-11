@@ -1,0 +1,190 @@
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    /* height: 5000px; */
+
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.blueBG{
+    background-color: darkblue;
+}
+
+.whiteTextColor{
+  color: white;
+}
+
+.navigationBarButtonPadding{
+  padding-top: 15px;
+}
+
+
+.navigationItem{
+    background-color: darkblue;
+    overflow: hidden;
+    padding-right: 20px;
+    color: white;
+    display: block;
+}
+.navigationItem:hover{
+    background-color: black;
+    color: white;
+}
+
+.TitlePadding{
+  padding-top: 10px;
+}
+
+.mediumText{
+    font-size: 50px;
+}
+
+
+.floatLeft{
+    float: left;
+}
+.floatRight{
+    float: right;
+}
+
+.logo{
+    width:  120px;
+    height: 130px;
+    padding-top:10px;
+}
+
+.subtitle{
+  font-family: 'monospace;';
+  font-size: 15px;
+  padding-top: 0px;
+  margin-top: 0px;
+
+}
+
+.title{
+    font-family: 'monospace;';
+    font-size: 50px;
+    padding: 5px;
+}
+
+.header{
+  background-image: : url("https://bite-of-newberg.com/wp-content/uploads/2018/07/cropped-bite-logo-400px.png");
+  height: 100px;
+  min-height: 400px;
+  background-size: cover;
+}
+
+.bgImage{
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  filter: brightness(0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.carousalBgImage{
+  width: 40vw;
+  height: 50vh;
+  object-fit: cover;
+  filter: brightness(0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  border-radius: 15%;
+}
+
+
+.navBarContainer{
+  top: 0;
+  position: sticky;
+  z-index: 2;
+}
+
+.dropDownManu{
+  background-color: transparent
+}
+
+.carouselImageAligner{
+
+  height: 10vh;
+  width: 10vw;
+
+}
+
+img{
+  100%
+}
+
+.carouselImageResizer{
+
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+ .BC{
+
+  width: 100vw;
+  height: 50vh;
+  padding-left: 800px;
+  display: inline-block;
+  background: transparent;
+
+
+}
+
+@keyframes slide {
+
+  0%{
+    transform: translateX(0);
+  }
+  25%{
+    transform: translateX(0);
+  }
+  30%{
+    transform: translateX(-100);
+  }
+  50%{
+    transform: translateX(-100);
+  }
+
+
+}
+
+.text{
+
+  letter-spacing: 1px;
+  font-family: 'Zilla Slab';
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation:
+       typing 2s steps(50),
+       cursor .4s step-end infinite alternate;
+}
+
+
+@keyframes cursor {
+  50%{
+    border-color: transparent;
+  }
+}
+@keyframes typing {
+
+  from{
+    width: 0;
+  }
+
+}

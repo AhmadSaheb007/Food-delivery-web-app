@@ -1,0 +1,197 @@
+body{
+    font-family: 'Zilla Slab', serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.bgImage{
+
+
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  filter: brightness(0.8);
+  top: 0;
+  left: 0;
+  position: sticky;
+  z-index: -1;
+
+}
+
+.display-side-by-side {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+.container{
+
+  width: 85vmin;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  overflow: hidden;
+  border: 20px solid #ffffff;
+  box-shadow: 10px 25px  30px rgba(30, 30, 300, 0.3);
+
+}
+
+.TitletFont{
+
+  font-family: 'Zilla Slab', serif;
+  color: white;
+  top: 89px;
+  position: sticky;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.rstStyle{
+  font-family: 'Zilla Slab', serif;
+}
+.slider-wrapper{
+  width: 100%;
+  display: flex;
+  animation: slide 16s infinite;
+
+}
+img{
+  100%
+}
+
+.whiteTextColor{
+  color: white;
+}
+
+
+.floatLeft{
+    float: left;
+}
+.floatRight{
+    float: right;
+}
+
+.navBarContainer{
+  top: 0;
+  position: sticky;
+  z-index: 2;
+}
+.navigationBarButtonPadding{
+  padding-top: 10px;
+}
+.navigationItem:hover{
+    background-color: black;
+    color: white;
+}
+.navigationItem{
+    background-color: darkblue;
+    overflow: hidden;
+    padding-right: 20px;
+    color: white;
+    display: block;
+}
+ul li{
+    list-style-type: none;
+}
+
+.navBgImage{
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100vw;
+}
+
+
+.logo{
+    width:  70px;
+    height: 75px;
+    padding-top:5px;
+}
+
+.carouselImageResizer{
+
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.ResturentOverview{
+
+  height: 230px;
+  width: 270px;
+  border: 2px solid black;
+  border-radius: 3%;
+  shadow: 10px;
+  box-shadow: 5px 5px #383838;
+
+}
+
+.titelContainder{
+  z-index: -1;
+}
+
+.rastaurantBannerImageResizer{
+
+  height: 160px;
+  width: 270px;
+  padding-right: 4px;
+  border-radius: 10%;
+
+}
+
+
+
+.float-child {
+    width: 23%;
+    float: left;
+    padding: 10px;
+}
+
+.topBannerImageResizer{
+
+  height: 230px;
+  width: 270px;
+  padding-right: 4px;
+  border-radius: 3%;
+
+  object-fit: cover;
+  z-index: -1;
+
+}
+
+#outer{
+  text-align: center;
+}
+
+.inner {
+  display: inline-block;
+  height:150px;
+  margin:10px;
+  text-align: center;
+  border-radius: 10%;
+}
+
+.box{
+   width:  266px;
+   height: 250px;
+   background-color: rgba(0, 0, 0, 0.5);
+}
+
+@keyframes slide {
+
+  0%{
+    transform: translateX(0);
+  }
+  10%{
+    transform: translateX(50);
+  }
+  15%{
+    transform: translateX(-200);
+  }
+  20%{
+    transform: translateX(-100);
+  }
+
+
+}
